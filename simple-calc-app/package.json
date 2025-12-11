@@ -1,0 +1,21 @@
+{
+  "name": "simple-calc-app",
+  "version": "1.0.0",
+  "description": "Application simple de calculatrice pour démonstration CI/CD avec GitHub Actions",
+  "main": "src/calculator.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "echo 'Build completed successfully'"
+  },
+  "keywords": [
+    "calculator",
+    "ci-cd",
+    "github-actions",
+    "demo"
+  ],
+  "author": "Votre Nom",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
